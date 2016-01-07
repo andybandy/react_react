@@ -1,7 +1,8 @@
-import React from "react";
-import Greeting from "./greeting";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Greeting from './greeting';
 
-React.render(
+ReactDOM.render(
   <Greeting name="you"/>,
   document.body
 );
